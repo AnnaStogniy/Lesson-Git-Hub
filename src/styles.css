@@ -1,0 +1,51 @@
+body {
+    padding: 60px;
+    background-color: #66a8dc;
+    color: white;
+  }
+  .button {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 5px 20px;
+  }
+  
+  .button:hover {
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen;
+  }
+  .temperature {
+    text-align: center;
+  }
+  h2 {
+    font-size: 74px;
+  }
+  h3 {
+    color: #5a6275;
+  }
+  .temperature p {
+    color: #5a6275;
+    font-size: 10px;
+  }
+  .futureWeather {
+    text-align: center;
+    font-size: 30px;
+  }
+  hr {
+    color: #5a6275;
+  }
+  #current-celcius {
+    font-size: 30px;
+    text-decoration: none;
+  }
+  #current-fahrenheit {
+    font-size: 30px;
+    text-decoration: none;
+  }
+  #between-cAndf {
+    font-size: 30px;
+    color: #5a6275;
+  }
+  

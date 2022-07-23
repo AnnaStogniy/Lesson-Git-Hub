@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.2.3.js"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <form id="change-city">
+      <input
+        type="text"
+        id="input-city"
+        name="city"
+        placeholder="Type a city"
+      />
+      <button type="submit" id="search-button" class="button" value="search">
+        search
+      </button>
+      <button type="button" id="currentcity-button" class="button">
+        current
+      </button>
+    </form>
+    <h1 id="current-city">
+      Poltava
+    </h1>
+    <p id="current-time">
+      10:20
+    </p>
+
+    <div class="temperature">
+      <h2>
+        ☁
+      </h2>
+      <h2 id="current-temperature">
+        18
+      </h2>
+
+      <a id="current-celcius" href="">°C</a>
+      <a id="between-cAndf">/</a>
+      <a id="current-fahrenheit" href="">°F</a>
+
+      <h3>
+        Cloudy
+      </h3>
+      <p>
+        Precipitation: 87%
+        <br />
+        Wind: 5km/h
+      </p>
+    </div>
+    <div class="futureWeather">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            Tue
+          </div>
+          <div class="col">
+            ☁️
+          </div>
+          <div class="col">
+            13˚C
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            Wed
+          </div>
+          <div class="col">
+            🌧
+          </div>
+          <div class="col">
+            15˚C
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            Thu
+          </div>
+          <div class="col">
+            ☁️
+          </div>
+          <div class="col">
+            19˚C
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            Fri
+          </div>
+          <div class="col">
+            🌧
+          </div>
+          <div class="col">
+            13˚C
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            Sat
+          </div>
+          <div class="col">
+            ☀️
+          </div>
+          <div class="col">
+            19˚C
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
